@@ -1,0 +1,70 @@
+@import "styles/_variables.scss";
+
+$placeholder-color: #ddd;
+
+.contact {
+  position: relative;
+  background-color: $main-dark;
+
+  .form {
+    z-index: 1;
+    max-width: 500px;
+  }
+
+  .form-control,
+  .form-control:focus {
+    color: white;
+    background-color: rgba(67, 131, 228, 0.5);
+    border-color: transparent;
+
+    &::-webkit-input-placeholder {
+      color: $placeholder-color;
+    }
+
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: $placeholder-color;
+    }
+
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      color: $placeholder-color;
+    }
+
+    &:-ms-input-placeholder {
+      /* IE 10+ */
+      color: $placeholder-color;
+    }
+
+    &::-ms-input-placeholder {
+      /* Edge */
+      color: $placeholder-color;
+    }
+
+    &:placeholder-shown {
+      /* Standard one last! */
+      color: $placeholder-color;
+    }
+  }
+
+  .form-control:focus {
+    border-color: $main;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem $main-o25;
+  }
+
+  #contact-submit {
+    background-color: $main;
+    color: white;
+  }
+
+  .bg-underlay {
+    z-index: 0;
+  }
+
+  /* firefox add red borders to required */
+  input:required,
+  textarea:required {
+    box-shadow: none;
+  }
+}

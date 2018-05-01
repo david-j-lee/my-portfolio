@@ -1,0 +1,30 @@
+.typed-cursor {
+  font-size: 20pt;
+  opacity: 1;
+  animation: blink 0.7s infinite;
+  color: white;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.typed-fade-out {
+  opacity: 0;
+  transition: opacity 0.25s;
+  animation: 0;
+}
+
+@media (min-width: 768px) {
+  .typed-cursor {
+    font-size: 24pt;
+  }
+}

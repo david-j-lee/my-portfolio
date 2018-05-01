@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 54 54"
+    width="54" height="54">
+    <defs>
+        <clipPath id="_clipPath_lOxbqRh8UU8MmmOjvLDUcK1V2ZL6CsyE">
+            <rect width="54" height="54" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_lOxbqRh8UU8MmmOjvLDUcK1V2ZL6CsyE)">
+        <g style="isolation:isolate" id="Layer 1">
+            <path d=" M 21.969 42.971 L 21.969 49.991 L 24.001 49.991 L 24.001 53.007 L 29.99 53.007 L 29.99 49.991 L 32.001 49.991 L 32.001 43.096"
+                fill="none" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(255,255,255)" stroke-linejoin="round"
+                stroke-linecap="butt" stroke-miterlimit="4" />
+            <path d=" M 11.043 25 C 11.043 14.344 19.716 8.986 27 8.986 C 34.284 8.986 42.969 14.75 42.969 25 Q 42.969 35.25 32.001 40.375 L 32.001 42.971 L 21.969 42.971 L 21.969 40.359 Q 11.043 35.656 11.043 25 Z "
+                fill="none" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(255,255,255)" stroke-linejoin="miter"
+                stroke-linecap="square" stroke-miterlimit="3" />
+            <path d=" M 27 13.955 C 21.701 13.955 15.953 18.307 15.953 25" fill="none" vector-effect="non-scaling-stroke"
+                stroke-width="2" stroke="rgb(255,255,255)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="3"
+            />
+            <g style="isolation:isolate" id="Layer 2">
+                <line x1="10.012" y1="8.022" x2="12.867" y2="10.839" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(255,255,255)"
+                    stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" />
+                <line x1="3.011" y1="25" x2="6.993" y2="25" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(255,255,255)"
+                    stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" />
+                <line x1="12.867" y1="39.146" x2="10.012" y2="41.947" vector-effect="non-scaling-stroke" stroke-width="2"
+                    stroke="rgb(255,255,255)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" />
+                <line x1="41.115" y1="39.146" x2="43.948" y2="41.947" vector-effect="non-scaling-stroke" stroke-width="2"
+                    stroke="rgb(255,255,255)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" />
+                <line x1="47.028" y1="25" x2="51.015" y2="25" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(255,255,255)"
+                    stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" />
+                <line x1="43.948" y1="8.022" x2="41.115" y2="10.839" vector-effect="non-scaling-stroke" stroke-width="2"
+                    stroke="rgb(255,255,255)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" />
+                <line x1="27" y1="1" x2="27" y2="5" vector-effect="non-scaling-stroke" stroke-width="2" stroke="rgb(255,255,255)"
+                    stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" />
+            </g>
+        </g>
+    </g>
+</svg>

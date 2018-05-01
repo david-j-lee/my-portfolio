@@ -1,0 +1,61 @@
+.projects {
+  background-color: #eee;
+  .project {
+    margin: 0 5%;
+    padding: 1.5rem;
+  }
+  img {
+    width: 100%;
+    padding: 2rem 0;
+  }
+  .fa-lg {
+    color: rgba(255, 255, 255, 0.5);
+    &:hover {
+      color: rgba(255, 255, 255, 0.9);
+    }
+  }
+  .carousel-inner {
+    min-height: 700px;
+  }
+  .carousel-caption {
+    color: #333;
+    position: relative;
+    right: inherit;
+    bottom: inherit;
+    left: inherit;
+    padding-bottom: 40px;
+  }
+  .carousel-indicators {
+    bottom: -50px;
+  }
+  .carousel-indicators li {
+    cursor: pointer;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+    cursor: pointer;
+  }
+  .carousel-item-content {
+    width: 100%;
+  }
+}
+
+.project-img-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    .carousel-inner {
+      min-height: 500px;
+    }
+    .carousel-item-content .project {
+      padding: 3.5rem;
+    }
+    img {
+      padding: 0;
+    }
+  }
+}
