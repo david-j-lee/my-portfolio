@@ -127,7 +127,7 @@ export default class Skills extends React.Component {
           <div className="container my-auto py-5">
             <div className="row skills-anime cards">
               <div className="col-md-12 dark text-center mb-5">
-                <h1>What I am Learning</h1>
+                <h1>What I am Doing</h1>
               </div>
               <div className="col-md-4 mb-3">
                 <div className="card">
