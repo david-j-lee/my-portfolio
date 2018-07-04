@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactForm.css";
 
-import Recaptcha from "react-recaptcha";
+// import Recaptcha from "react-recaptcha";
 
 export default class Contact extends React.Component {
   constructor(props) {

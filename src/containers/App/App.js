@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 //import logo from '../logo.svg';
 import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
 
 // font awesome icons
 import fontawesome from "@fortawesome/fontawesome";
@@ -12,12 +13,8 @@ import faLinkedin from "@fortawesome/fontawesome-free-brands/faLinkedin";
 import faStackOverflow from "@fortawesome/fontawesome-free-brands/faStackOverflow";
 import faExternalLinkAlt from "@fortawesome/fontawesome-free-solid/faExternalLinkAlt";
 
-import Home from "../Home/Home";
-import About from "../About/About";
-import Skills from "../Skills/Skills";
-import Journey from "../Journey/Journey";
-import Projects from "../Projects/Projects";
-import Contact from "../Contact/Contact";
+import Main from '../Main/Main';
+import Project from '../Project/Project';
 
 class App extends Component {
   render() {
@@ -31,14 +28,12 @@ class App extends Component {
       faExternalLinkAlt
     );
     return (
-      <div className="App">
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-        <Journey />
-        <Contact />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Route exact path="/" component={Main} />
+          <Route path="/project/:id" component={Project} />
+        </div>
+      </BrowserRouter>
     );
   }
 }

@@ -68,7 +68,7 @@ export default class Journey extends React.Component {
       rect.top >= 0 &&
       rect.left >= 0 &&
       rect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight) &&
+      (window.innerHeight || document.documentElement.clientHeight) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
@@ -105,7 +105,7 @@ export default class Journey extends React.Component {
         backgroundColor: {
           value: "#333",
           duration: 250,
-          delay: function(el, i, t) {
+          delay: function (el, i, t) {
             return 100 + i * 100;
           },
           easing: "easeOutQuart"
@@ -116,7 +116,7 @@ export default class Journey extends React.Component {
         backgroundColor: {
           value: "rgba(0, 0, 0, 0.5)",
           duration: 250,
-          delay: function(el, i, t) {
+          delay: function (el, i, t) {
             return 100 + i * 100;
           },
           easing: "easeOutQuart"
@@ -127,7 +127,7 @@ export default class Journey extends React.Component {
         opacity: {
           value: 1,
           duration: 250,
-          delay: function(el, i, t) {
+          delay: function (el, i, t) {
             return 100 + i * 100;
           },
           easing: "easeOutQuart"
@@ -326,6 +326,7 @@ export default class Journey extends React.Component {
                     <a
                       href="https://drive.google.com/file/d/1PwUNPRXjP4AaLyIFcnS7_VndPju-r5i8/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="btn btn-accent my-3"
                     >
                       Resumé

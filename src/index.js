@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Components/App/App';
-import registerServiceWorker from './registerServiceWorker';
+import App from './containers/App/App';
+// import registerServiceWorker from './registerServiceWorker';
 
 // eslint-disable-next-line
 import particlesJS from 'particles.js/particles';

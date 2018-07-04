@@ -1,0 +1,94 @@
+[
+  {
+    "src": "onicalc",
+    "name": "ONI Calc",
+    "url": "http://onicalc.com",
+    "imageUrl": "assets/ptable.png",
+    "imageAlt": "ONI Calc project image",
+    "description": "Oxygen not Included calculator. Plan out your power and resources",
+    "role": "Sole Developer",
+    "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Material-UI", "Reactjs", "Sass"]
+  },
+  {
+    "src": "ptable",
+    "name": "PTable",
+    "url": "http://theptable.com",
+    "imageUrl": "assets/ptable.png",
+    "imageAlt": "PTable project image",
+    "description": "Periodic Table of Elements. Easily search for elements and see elemental states in a specific temperature.",
+    "role": "Sole Developer",
+    "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Material-UI", "Reactjs", "Reactstrap", "Sass"]
+  },
+  {
+    "src": "daebit",
+    "name": "Daebit",
+    "url": "https://daebit.com",
+    "imageUrl": "assets/daebit.png",
+    "imageAlt": "Daebit project image",
+    "description": "My personal playground with various applications.",
+    "role": "Sole Developer",
+    "tech": [
+      "Angular 5", "Angular Material", "Asp Core 2", 
+      "AWS CodeStar", "AWS CloudFront", "AWS EC2 Ubuntu", "AWS RDS", 
+      "AWS Route 53", "AWS S3", "AWS SES", "Bootstrap 4", "Sass" 
+    ]
+  },
+  {
+    "src": "daebit-budgets",
+    "name": "Budgets",
+    "url": "https://daebit.com/budgets/about",
+    "imageUrl": "assets/budgets.png",
+    "imageAlt": "Budget project image",
+    "description": "Application within daebit. Personal financial forecasting model. Quickly plan out your revenues and expenses by day for a whole year.",
+    "role": "Sole Developer",
+    "tech": ["Angular 5", "Angular Material", "Asp Core 2", 
+      "AWS CodeStar", "AWS CloudFront", "AWS EC2 Ubuntu", "AWS RDS", 
+      "AWS Route 53", "AWS S3", "AWS SES", "Bootstrap 4", "Sass"
+    ]
+  },
+  {
+    "src": "daebit-gradebooks",
+    "name": "Gradebooks",
+    "url": "https://daebit.com/gradebooks/about",
+    "imageUrl": "assets/gradebooks.png",
+    "imageAlt": "Grades project image",
+    "description": "Application within daebit. Keep track of your grades in class and perform what-if analyses on your remaining tests and assignments.",
+    "role": "Sole Developer",
+    "tech": ["Angular 5", "Angular Material", "Asp Core 2", "AWS CodeStar",
+      "AWS CloudFront", "AWS EC2 Ubuntu", "AWS RDS", "AWS Route 53",
+      "AWS S3", "AWS SES", "Bootstrap 4", "Sass"
+    ]
+  },
+  {
+    "src": "rancho-rifles",
+    "name": "Rancho Rifles",
+    "url": "https://ranchorifles.com",
+    "imageUrl": "assets/gradebooks.png",
+    "imageAlt": "Rancho Rifles project image",
+    "description": "Client project. Landing page and contact form for Rancho Rifles.",
+    "role": "Sole Developer",
+    "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Material-UI", "Reactjs", "Sass"]
+  },
+  {
+    "src": "grantlaw",
+    "name": "Law Offices of Robert Grant",
+    "url": "https://grantlaw.com",
+    "imageUrl": "assets/gradebooks.png",
+    "imageAlt": "Grant Law project image",
+    "description": "Client project. Brochure site for the Law Offices of Robert Grant.",
+    "role": "Sole Developer",
+    "tech": ["Asp MVC", "Bootstrap 3", "JQuery", "Razor Views"]
+  },
+  {
+    "src": "realhelpmd",
+    "name": "Read Help M.D.",
+    "url": "https://realhelpmd.com",
+    "imageUrl": "assets/gradebooks.png",
+    "imageAlt": "Real Help M.D. project image",
+    "description": "Client project. Q&A and review site for cosmetic surgeons.",
+    "role": "Sole Developer",
+    "tech": ["Asp MVC", "Azure Blob Storage", "Azure RDS", "Azure Hosting",
+      "Bootstrap 3", "JQuery", "Razor Views"
+    ]
+  }
+]
