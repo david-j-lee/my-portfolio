@@ -11,7 +11,7 @@ export default class ProjectsTiled extends React.Component {
   render() {
     const slides = projects.map((project, i) => {
       return (
-        <div className="project-tiled col-md-3">
+        <div key={i} className="project-tiled col-md-3">
           <Link to={"/project/" + project.src} className="project-tiled-link">
             <h2 className="mt-3 mt-lg-0 project-tiled-name">{project.name}</h2>
             <div className="image" style={{ backgroundImage: `url(${project.imageUrl})` }} />

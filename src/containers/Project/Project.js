@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Project.css";
 
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import projects from '../../assets/json/projects.json';
 
@@ -35,11 +35,23 @@ export default class Project extends React.Component {
             );
           })}
         </p>
-        <Link to="/">
-          <button className="btn btn-defualt">
+        <Link to="/#projects" className="mr-3 mb-1">
+          <button className="btn btn-default">
             Return to Home
           </button>
         </Link>
+        <a href={project.url} target="_blank" className="mr-3 mb-1">
+          <button className="btn btn-default">
+            View the Site
+          </button>
+        </a>
+        {project.gitHubUrl !== undefined &&
+          <a href={project.gitHubUrl} target="_blank" className="mr-3 mb-1">
+            <button className="btn btn-default">
+              View the GitHub
+            </button>
+          </a>
+        }
       </div>
     )
   }

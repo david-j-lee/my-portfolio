@@ -148,7 +148,7 @@ export default class Skills extends React.Component {
                     <ul className="tag-list mb-0">
                       <li>Bootstrap 4</li>
                       <li>Angular Material</li>
-                      <li>Reactjs</li>
+                      <li>React Redux</li>
                     </ul>
                   </div>
                 </div>
