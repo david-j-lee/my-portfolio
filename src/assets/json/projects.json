@@ -67,17 +67,17 @@
   {
     "src": "rancho-rifles",
     "name": "Rancho Rifles",
-    "url": "https://ranchorifles.com",
+    "url": "http://ranchorifles.com",
     "imageUrl": "assets/rancho-rifles.png",
     "imageAlt": "Rancho Rifles project image",
-    "description": "Client project. Landing page and contact form for Rancho Rifles.",
+    "description": "Client project. Landing page for Rancho Rifles.",
     "role": "Sole Developer",
     "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Reactjs", "Sass"]
   },
   {
     "src": "grantlaw",
     "name": "Law Offices of Robert Grant",
-    "url": "https://grantlaw.com",
+    "url": "http://robertgrantlaw.com",
     "imageUrl": "assets/robert-grant-law.png",
     "imageAlt": "Grant Law project image",
     "description": "Client project. Brochure site for the Law Offices of Robert Grant.",
