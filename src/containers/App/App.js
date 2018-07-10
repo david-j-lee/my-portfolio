@@ -6,8 +6,10 @@ import { BrowserRouter, Route } from "react-router-dom";
 // font awesome icons
 import fontawesome from "@fortawesome/fontawesome";
 import faChevronDown from "@fortawesome/fontawesome-free-solid/faChevronDown";
-import faChevronLeft from "@fortawesome/fontawesome-free-solid/faChevronLeft";
-import faChevronRight from "@fortawesome/fontawesome-free-solid/faChevronRight";
+import faArrowLeft from "@fortawesome/fontawesome-free-solid/faArrowLeft";
+// import faChevronLeft from "@fortawesome/fontawesome-free-solid/faChevronLeft";
+// import faChevronRight from "@fortawesome/fontawesome-free-solid/faChevronRight";
+import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
 import faGithubAlt from "@fortawesome/fontawesome-free-brands/faGithubAlt";
 import faLinkedin from "@fortawesome/fontawesome-free-brands/faLinkedin";
 import faStackOverflow from "@fortawesome/fontawesome-free-brands/faStackOverflow";
@@ -20,8 +22,10 @@ class App extends Component {
   render() {
     fontawesome.library.add(
       faChevronDown,
-      faChevronLeft,
-      faChevronRight,
+      faArrowLeft,
+      // faChevronLeft,
+      // faChevronRight,
+      faGithub,
       faGithubAlt,
       faLinkedin,
       faStackOverflow,
