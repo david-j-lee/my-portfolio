@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 
 import anime from "animejs";
-import Typed from "typed.js";
+// import Typed from "typed.js";
 import Waypoint from "react-waypoint";
 
 import Logo from "../Icons/Logo/Logo";
@@ -48,21 +48,21 @@ export default class Home extends React.Component {
   }
 
   typed() {
-    // typed used for sub heading
-    const typedStrings = [
-      "I love learning new technologies",
-      "I enjoy solving problems",
-      "I design user experiences",
-      "I build functional applications"
-    ];
-    const typedOptions = {
-      // BUG? does not show first sentence
-      strings: typedStrings,
-      typeSpeed: 40,
-      backSpeed: 10,
-      loop: true
-    };
-    new Typed(".sub-heading", typedOptions);
+    // // typed used for sub heading
+    // const typedStrings = [
+    //   "I love learning new technologies",
+    //   "I enjoy solving problems",
+    //   "I design user experiences",
+    //   "I build functional applications"
+    // ];
+    // const typedOptions = {
+    //   // BUG? does not show first sentence
+    //   strings: typedStrings,
+    //   typeSpeed: 40,
+    //   backSpeed: 10,
+    //   loop: true
+    // };
+    // new Typed(".sub-heading", typedOptions);
   }
 
   animate() {
@@ -127,7 +127,9 @@ export default class Home extends React.Component {
                   <h1 className="white">Hi, I am</h1>
                   <h1 className="accent">David Lee</h1>
                   <div className="sub-heading-wrapper ml-1">
-                    <span className="sub-heading white" />
+                    <span className="sub-heading white">
+                      Software Engineer<span class="animate-blink">|</span>
+                    </span>
                   </div>
                 </div>
               </div>

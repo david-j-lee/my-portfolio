@@ -8,6 +8,11 @@
   }
 }
 
+.animate-blink {
+  -webkit-animation: flash linear 1.5s infinite;
+	animation: flash linear 1.5s infinite;
+}
+
 .home-down-arrow {
   z-index: 1;
 }
