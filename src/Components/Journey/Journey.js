@@ -324,7 +324,7 @@ export default class Journey extends React.Component {
                       <FontAwesomeIcon icon="chevron-left" size="1x" />
                     </button>
                     <a
-                      href="https://drive.google.com/file/d/1PwUNPRXjP4AaLyIFcnS7_VndPju-r5i8/view?usp=sharing"
+                      href="https://drive.google.com/open?id=1SVRGIaYBfGgVjlWSiAxP59CaGUe0bMeM"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-accent my-3"
