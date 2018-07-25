@@ -128,7 +128,7 @@ export default class Home extends React.Component {
                   <h1 className="accent">David Lee</h1>
                   <div className="sub-heading-wrapper ml-1">
                     <span className="sub-heading white">
-                      Software Engineer<span class="animate-blink">|</span>
+                      Software Developer<span class="animate-blink">|</span>
                     </span>
                   </div>
                 </div>

@@ -146,9 +146,10 @@ export default class Skills extends React.Component {
                     </ul>
                     <h6 className="card-subtitle text-muted">Libraries</h6>
                     <ul className="tag-list mb-0">
-                      <li>Bootstrap 4</li>
-                      <li>Angular Material</li>
                       <li>React Redux</li>
+                      <li>Material UI</li>
+                      <li>Angular Material</li>
+                      <li>Bootstrap 4</li>
                     </ul>
                   </div>
                 </div>
@@ -165,8 +166,8 @@ export default class Skills extends React.Component {
                     </ul>
                     <h6 className="card-subtitle text-muted">Frameworks</h6>
                     <ul className="tag-list">
-                      <li>ASP.NET MVC</li>
                       <li>ASP.NET Core</li>
+                      <li>ASP.NET MVC</li>
                     </ul>
                     <h6 className="card-subtitle text-muted">Hosting</h6>
                     <ul className="tag-list mb-0">
