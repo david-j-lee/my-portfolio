@@ -11,12 +11,12 @@
     "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Material-UI", "Reactjs", "Redux", "Sass"]
   },
   {
-    "src": "ptable",
-    "name": "PTable",
-    "url": "http://theptable.com",
-    "gitHubUrl": "https://github.com/david-j-lee/p-table",
-    "imageUrl": "assets/ptable.png",
-    "imageAlt": "PTable project image",
+    "src": "alltheatoms",
+    "name": "All the Atoms",
+    "url": "http://alltheatoms.com",
+    "gitHubUrl": "https://github.com/david-j-lee/all-the-atoms",
+    "imageUrl": "assets/all-the-atoms.png",
+    "imageAlt": "All the Atoms project image",
     "description": "Periodic Table of Elements. Easily search for elements and see elemental states in a specific temperature.",
     "role": "Sole Developer",
     "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Material-UI", "Reactjs", "Redux", "Sass"]

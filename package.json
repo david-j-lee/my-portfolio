@@ -12,7 +12,7 @@
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "publish": "npm run build && aws s3 rm s3://davethedev.me --recursive && aws s3 sync build/ s3://davethedev.me"
+    "publish": "npm run build && aws s3 sync build/ s3://devdavidlee.com"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.3",
