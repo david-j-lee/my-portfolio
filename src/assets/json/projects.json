@@ -22,49 +22,6 @@
     "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Material-UI", "Reactjs", "Redux", "Sass"]
   },
   {
-    "src": "daebit",
-    "name": "Daebit",
-    "url": "https://daebit.com",
-    "gitHubUrl": "https://github.com/david-j-lee/daebit",
-    "imageUrl": "assets/daebit.png",
-    "imageAlt": "Daebit project image",
-    "description": "My personal playground with various applications.",
-    "role": "Sole Developer",
-    "tech": [
-      "Angular 5", "Angular Material", "Asp Core 2", 
-      "AWS CodeStar", "AWS CloudFront", "AWS EC2 Ubuntu", "AWS RDS", 
-      "AWS Route 53", "AWS S3", "AWS SES", "Bootstrap 4", "Sass" 
-    ]
-  },
-  {
-    "src": "daebit-budgets",
-    "name": "Budgets",
-    "url": "https://daebit.com/budgets/about",
-    "gitHubUrl": "https://github.com/david-j-lee/daebit",
-    "imageUrl": "assets/budgets.png",
-    "imageAlt": "Budget project image",
-    "description": "Application within daebit. Personal financial forecasting model. Quickly plan out your revenues and expenses by day for a whole year.",
-    "role": "Sole Developer",
-    "tech": ["Angular 5", "Angular Material", "Asp Core 2", 
-      "AWS CodeStar", "AWS CloudFront", "AWS EC2 Ubuntu", "AWS RDS", 
-      "AWS Route 53", "AWS S3", "AWS SES", "Bootstrap 4", "Sass"
-    ]
-  },
-  {
-    "src": "daebit-gradebooks",
-    "name": "Gradebooks",
-    "url": "https://daebit.com/gradebooks/about",
-    "gitHubUrl": "https://github.com/david-j-lee/daebit",
-    "imageUrl": "assets/gradebooks.png",
-    "imageAlt": "Grades project image",
-    "description": "Application within daebit. Keep track of your grades in class and perform what-if analyses on your remaining tests and assignments.",
-    "role": "Sole Developer",
-    "tech": ["Angular 5", "Angular Material", "Asp Core 2", "AWS CodeStar",
-      "AWS CloudFront", "AWS EC2 Ubuntu", "AWS RDS", "AWS Route 53",
-      "AWS S3", "AWS SES", "Bootstrap 4", "Sass"
-    ]
-  },
-  {
     "src": "rancho-rifles",
     "name": "Rancho Rifles",
     "url": "http://ranchorifles.com",
@@ -83,17 +40,5 @@
     "description": "Client project. Brochure site for the Law Offices of Robert Grant.",
     "role": "Sole Developer",
     "tech": ["Asp MVC", "Bootstrap 3", "JQuery", "Razor Views"]
-  },
-  {
-    "src": "realhelpmd",
-    "name": "Real Help M.D.",
-    "url": "http://realhelpmd.com",
-    "imageUrl": "assets/real-help-md.png",
-    "imageAlt": "Real Help M.D. project image",
-    "description": "Q&A and review site for cosmetic surgeons. Client project hired to create MVP.",
-    "role": "Sole Developer",
-    "tech": ["Asp MVC", "Azure Blob Storage", "Azure RDS", "Azure Hosting",
-      "Bootstrap 3", "JQuery", "Razor Views"
-    ]
   }
 ]

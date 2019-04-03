@@ -16,16 +16,6 @@ export default class Projects extends React.Component {
             <h2 className="mt-3 mt-lg-0 project-tiled-name">{project.name}</h2>
             <div className="image" style={{ backgroundImage: `url(${project.imageUrl})` }} />
             <div className="dark-overlay"></div>
-            {/* <p>{project.description}</p>
-            <p>
-              {project.tech.map((string, i) => {
-                return (
-                  <span key={project.name + i} className="badge">
-                    {string}
-                  </span>
-                );
-              })}
-            </p> */}
           </Link>
         </div>
       );
