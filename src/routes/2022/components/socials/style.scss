@@ -1,0 +1,15 @@
+ul.socialsListing {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  padding: 0;
+
+  li {
+    font-size: 32px;
+    padding: 0 30px;
+    margin: 0;
+  }
+}

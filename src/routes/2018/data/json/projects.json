@@ -1,0 +1,44 @@
+[
+  {
+    "src": "onicalc",
+    "name": "ONI Calc",
+    "url": "http://onicalc.com",
+    "gitHubUrl": "https://github.com/david-j-lee/oni-calc",
+    "imageUrl": "/assets/2018/oni-calc.png",
+    "imageAlt": "ONI Calc project image",
+    "description": "Oxygen not Included calculator. Plan out your power and resources.",
+    "role": "Sole Developer",
+    "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Material-UI", "Reactjs", "Redux", "Sass"]
+  },
+  {
+    "src": "alltheatoms",
+    "name": "All the Atoms",
+    "url": "http://alltheatoms.com",
+    "gitHubUrl": "https://github.com/david-j-lee/all-the-atoms",
+    "imageUrl": "/assets/2018/all-the-atoms.png",
+    "imageAlt": "All the Atoms project image",
+    "description": "Periodic Table of Elements. Easily search for elements and see elemental states in a specific temperature.",
+    "role": "Sole Developer",
+    "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Material-UI", "Reactjs", "Redux", "Sass"]
+  },
+  {
+    "src": "rancho-rifles",
+    "name": "Rancho Rifles",
+    "url": "http://ranchorifles.com",
+    "imageUrl": "/assets/2018/rancho-rifles.png",
+    "imageAlt": "Rancho Rifles project image",
+    "description": "Client project. Landing page for Rancho Rifles.",
+    "role": "Sole Developer",
+    "tech": ["AWS Route 53", "AWS S3", "AWS SES", "Reactjs", "Sass"]
+  },
+  {
+    "src": "grantlaw",
+    "name": "Law Offices of Robert Grant",
+    "url": "http://robertgrantlaw.com",
+    "imageUrl": "/assets/2018/robert-grant-law.png",
+    "imageAlt": "Grant Law project image",
+    "description": "Client project. Brochure site for the Law Offices of Robert Grant.",
+    "role": "Sole Developer",
+    "tech": ["Asp MVC", "Bootstrap 3", "JQuery", "Razor Views"]
+  }
+]

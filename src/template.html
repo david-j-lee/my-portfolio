@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-60339937-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-60339937-3");
+    </script>
+
+    <title><% preact.title %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link
+      rel="apple-touch-icon"
+      href="<%= htmlWebpackPlugin.files.publicPath %>assets/icons/apple-touch-icon.png"
+    />
+
+    <meta
+      name="description"
+      content="David Lee's Developer Portfolio. I am based in Los Angeles, California. Take a look at my skills and my work."
+    />
+    <meta
+      name="keywords"
+      content="Web Development,Software Engineer,HTML,CSS,SCSS,JavaScript,TypeScript,Reactjs,Redux,Angular,ASP.NET,Core,C#,WPF,SQL,Database Design,Star Schema,AWS,Azure"
+    />
+    <meta name="author" content="David Joseph Lee" />
+
+    <% preact.headEnd %>
+  </head>
+  <body>
+    <% preact.bodyEnd %>
+  </body>
+</html>

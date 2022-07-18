@@ -1,14 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './containers/App/App';
-// import registerServiceWorker from './registerServiceWorker';
+import './style';
+import App from './components/app';
 
-// eslint-disable-next-line
-import particlesJS from 'particles.js/particles';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "animate.css";
-import './index.css';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
+export default App;

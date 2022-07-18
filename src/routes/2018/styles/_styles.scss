@@ -1,0 +1,106 @@
+@import "./_variables.scss";
+@import "./typed.scss";
+@import "./animations.scss";
+
+@import url("https://fonts.googleapis.com/css?family=Muli|Open+Sans");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Muli", sans-serif;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.white {
+  color: white;
+}
+
+.main {
+  color: $main;
+}
+
+.main-bg {
+  background-color: $main;
+}
+
+.accent {
+  color: $accent;
+}
+
+.accent-bg {
+  background-color: $accent;
+}
+
+.accent-dark-bg {
+  background-color: $accent-dark;
+}
+
+.dark {
+  color: $dark;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.minh-100vh {
+  min-height: 100vh;
+}
+
+.card {
+  height: 100% !important;
+  border: none !important;
+}
+
+.down-arrow {
+  z-index: 1;
+  text-align: center;
+  padding-bottom: 25px;
+  svg {
+    animation-delay: 5s;
+  }
+}
+
+.bg-underlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.color-inherit,
+.color-inherit:hover {
+  color: inherit;
+}
+
+.opacity-light {
+  opacity: 0.1;
+}
+
+.opacity-light:hover {
+  opacity: 0.5;
+}
+
+.opacity-md {
+  opacity: 0.5;
+}
+
+.opacity-full {
+  opacity: 1;
+}

@@ -1,0 +1,53 @@
+@import "../_variables.scss";
+
+.hero {
+  background-color: $main-dark;
+  position: relative;
+  .logo {
+    max-width: 150px;
+  }
+}
+
+.animate-blink {
+  -webkit-animation: flash linear 1.5s infinite;
+  animation: flash linear 1.5s infinite;
+}
+
+.home-down-arrow {
+  z-index: 1;
+}
+
+.set-opacity-md .opacity-light {
+  opacity: 0.5;
+}
+.set-opacity-md .opacity-light:hover {
+  opacity: 0.8;
+}
+
+.hero-content {
+  z-index: 1;
+  pointer-events: none;
+  h1 {
+    font-size: 40pt;
+  }
+  .sub-heading-wrapper {
+    height: 100px;
+  }
+  .sub-heading {
+    font-size: 20pt;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .logo {
+    max-width: 250px;
+  }
+  .hero-content {
+    h1 {
+      font-size: 70pt;
+    }
+    .sub-heading {
+      font-size: 24pt;
+    }
+  }
+}
