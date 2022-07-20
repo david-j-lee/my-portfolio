@@ -1,4 +1,7 @@
 .year-2018 {
+  font-family: "Open Sans", sans-serif;
+
+  @import "bootstrap/dist/css/bootstrap.min.css";
   @import "_styles.scss";
   @import "components/_About.scss";
   @import "components/_Contact.scss";
