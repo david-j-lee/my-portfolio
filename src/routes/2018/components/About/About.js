@@ -140,38 +140,38 @@ export default class About extends Component {
         >
           <div className="container my-auto py-5">
             <div className="row about-anime">
-              <div className="col-md-6 order-md-5 mt-5 my-md-5">
+              <div className="col-md-6 order-md-4 mt-5 my-md-5">
                 <h1>
                   I design, build and deploy applications. I am a{" "}
                   <span className="nowrap">full-stack</span> developer.
                 </h1>
               </div>
-              <div className="col-md-6 order-md-6 mb-5 my-md-5">
+              <div className="col-md-6 order-md-5 mb-5 my-md-5">
                 <p>
                   I develop solution based applications with simple and
                   intuitive user interfaces. I am based in Orange County,
                   California and ready to solve some problems with code.
                 </p>
               </div>
-              <div className="col-md-3 col-6 order-md-1">
+              <div className="col-md-3 col-6 order-md-0">
                 <div className="text-center">
                   <DirectionIcon />
                   <h2>Critical Thinker</h2>
                 </div>
               </div>
-              <div className="col-md-3 col-6 order-md-2">
+              <div className="col-md-3 col-6 order-md-1">
                 <div className="text-center">
                   <LightBulbIcon />
                   <h2>Inquisitive</h2>
                 </div>
               </div>
-              <div className="col-md-3 col-6 order-md-3">
+              <div className="col-md-3 col-6 order-md-2">
                 <div className="text-center">
                   <PlayVideoIcon />
                   <h2>Quick Learner</h2>
                 </div>
               </div>
-              <div className="col-md-3 col-6  order-md-4">
+              <div className="col-md-3 col-6 order-md-3">
                 <div className="text-center">
                   <EyeIcon />
                   <h2>Perceptive</h2>
