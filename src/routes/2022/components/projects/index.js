@@ -16,7 +16,7 @@ const Projects = () => {
     },
     {
       title: "Gong Chat",
-      description: "A highly customizable cross platform XMPP chat client",
+      description: "A highly customizable cross-platform XMPP chat client",
       link: "https://gongchat.github.io/",
       github: "https://github.com/gongchat/gong",
     },
@@ -35,7 +35,7 @@ const Projects = () => {
     },
     {
       title: "Finance 365",
-      description: "Personal financial planner for the next 365 days",
+      description: "A personal financial planner for the next 365 days",
       github: "https://github.com/david-j-lee/fin365",
     },
     {
