@@ -30,7 +30,7 @@ const TechStack = () => (
       <li>PostgreSQL</li>
       <li>MySQL</li>
       <li>MongoDB</li>
-      <li>Elastic Search</li>
+      <li>Elasticsearch</li>
       {/* Containerization */}
       <li>Docker</li>
       {/* AWS */}
