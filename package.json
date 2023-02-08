@@ -9,7 +9,8 @@
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest",
-    "publish": "npm run build-no-prerender && aws s3 sync build/ s3://devdavidlee.com"
+    "empty-s3-bucket": "aws s3 rm s3://devdavidlee.com --recursive",
+    "publish": "npm run empty-s3-bucket && npm run build-no-prerender && aws s3 sync build/ s3://devdavidlee.com"
   },
   "eslintConfig": {
     "extends": "preact",
