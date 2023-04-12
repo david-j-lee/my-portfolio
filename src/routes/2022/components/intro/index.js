@@ -10,7 +10,7 @@ const Intro = () => (
     </div>
     <p>
       I design, build and deploy applications. I am a{" "}
-      <b>full-stack developer</b>. Based in <b>Los Angeles, California</b>, and
+      <b>full-stack developer</b>. Based in <b>Las Vegas, Nevada</b>, and
       ready to solve some problems with code.
     </p>
   </div>

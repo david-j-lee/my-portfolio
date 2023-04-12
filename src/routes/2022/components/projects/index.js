@@ -8,6 +8,12 @@ import style from "./style.scss";
 const Projects = () => {
   const projects = [
     {
+      title: "Bloop.",
+      description:
+        "Mobile game about mixing and matching colors. Available now on Apple store and Google Play store.",
+      link: "https://roguewavegamestudios.com/bloop",
+    },
+    {
       title: "Electron Inject CSS",
       description:
         "Node CLI that lets you inject CSS into Electron applications",
