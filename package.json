@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "lint:format": "prettier --check ./src",
     "format": "prettier --write ./src",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "empty-s3-bucket": "aws s3 rm s3://devdavidlee.com --recursive",
+    "publish": "npm run build && npm run empty-s3-bucket && aws s3 sync dist/ s3://devdavidlee.com"
   },
   "dependencies": {
     "react": "^18.3.1",
