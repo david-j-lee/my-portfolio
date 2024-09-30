@@ -27,9 +27,9 @@ const App = () => (
         <h2 className="text-sm uppercase opacity-70">Projects</h2>
       </Box>
       <div className="relative">
-        <ul className="grid grid-cols-2 gap-px border dark:border-neutral-800 dark:bg-neutral-800">
+        <ul className="grid grid-cols-1 gap-px border sm:grid-cols-2 dark:border-neutral-800 dark:bg-neutral-800">
           {projects.map((project) => (
-            <li className="dark:bg-neutral-950">
+            <li key={project.title} className="dark:bg-neutral-950">
               <BoxClickable
                 href={project.link ?? project.github}
                 className="h-full border-0"
