@@ -1,8 +1,8 @@
-type Props = {
+interface Props {
   href: string;
   className?: string;
   children: React.ReactNode;
-};
+}
 
 export const BoxClickable = ({ children, className, href }: Props) => (
   <a

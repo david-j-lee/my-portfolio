@@ -1,6 +1,6 @@
-type Props = {
+interface Props {
   className?: string;
-};
+}
 
 const Corner = ({ className }: Props) => (
   <div

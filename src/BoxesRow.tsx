@@ -1,6 +1,6 @@
-type Props = {
+interface Props {
   bottom?: boolean;
-};
+}
 
 export const BoxesRow = ({ bottom = false }: Props) => (
   <div className="flex w-full flex-nowrap">
