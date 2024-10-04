@@ -10,7 +10,7 @@ export const BoxClickable = ({ children, className, href }: Props) => (
     target="_blank"
     rel="noreferrer"
     className={
-      'block border p-5 transition-colors duration-500 dark:border-neutral-800 dark:hover:bg-neutral-50 dark:hover:text-neutral-900 ' +
+      'block border border-light p-5 transition-colors duration-500 hover:bg-dark hover:text-lightest dark:border-dark dark:hover:bg-lightest dark:hover:text-darkest ' +
       className
     }
   >

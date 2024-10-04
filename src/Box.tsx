@@ -4,7 +4,7 @@ interface Props {
 }
 
 const Box = ({ children, className }: Props) => (
-  <div className={'border p-5 dark:border-neutral-800 ' + className}>
+  <div className={'border border-light p-5 dark:border-dark ' + className}>
     {children}
   </div>
 );

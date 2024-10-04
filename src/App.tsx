@@ -5,10 +5,12 @@ import { BoxClickable } from './BoxClickable';
 import BoxesRow from './BoxesRow';
 import CornerBottom from './CornerBottom';
 import CornerTop from './CornerTop';
+import ThemePicker from './ThemePicker';
 import { projects } from './assets/projects';
 
 const App = () => (
-  <div className="size-full bg-white text-black dark:bg-neutral-950 dark:text-neutral-200">
+  <div className="size-full bg-lightest text-darkest dark:bg-darkest dark:text-lightest">
+    <ThemePicker />
     <BoxesRow />
     <div className="m-auto w-full max-w-[600px]">
       <Box className="relative border-t-0">
@@ -27,9 +29,9 @@ const App = () => (
         <h2 className="text-sm uppercase opacity-70">Projects</h2>
       </Box>
       <div className="relative">
-        <ul className="grid grid-cols-1 gap-px border sm:grid-cols-2 dark:border-neutral-800 dark:bg-neutral-800">
+        <ul className="grid grid-cols-1 gap-px border border-light bg-light sm:grid-cols-2 dark:border-dark dark:bg-dark">
           {projects.map((project) => (
-            <li key={project.title} className="dark:bg-neutral-950">
+            <li key={project.title} className="bg-lightest dark:bg-darkest">
               <BoxClickable
                 href={project.link ?? project.github}
                 className="h-full border-0"
