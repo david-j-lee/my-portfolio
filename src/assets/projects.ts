@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Bloop.',
     description: 'Mobile game about mixing and matching colors.',
-    link: 'https://roguewavegamestudios.com/bloop',
+    link: 'https://rlymad.com/bloop',
   },
   {
     title: 'Electron Inject CSS',
