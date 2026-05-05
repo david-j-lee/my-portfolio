@@ -1,20 +1,31 @@
+import clsx from 'clsx';
 import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
 
+import { projects } from '../assets/projects';
 import Box from './Box';
 import { BoxClickable } from './BoxClickable';
 import BoxesRow from './BoxesRow';
 import CornerBottom from './CornerBottom';
 import CornerTop from './CornerTop';
 import ThemePicker from './ThemePicker';
-import { projects } from './assets/projects';
 
 const App = () => (
-  <div className="size-full bg-lightest text-darkest dark:bg-darkest dark:text-lightest">
+  <div
+    className={clsx(
+      'bg-lightest',
+      'text-darkest',
+      'dark:bg-darkest',
+      'dark:text-lightest',
+      'flex',
+      'size-full',
+      'flex-col'
+    )}
+  >
     <ThemePicker />
     <BoxesRow />
-    <div className="m-auto w-full max-w-[600px]">
+    <div className="mx-auto w-full max-w-150">
       <Box className="relative border-t-0">
-        <CornerTop className="!-left-px !-top-px" />
+        <CornerTop className="-top-px! -left-px!" />
         <h1 className="mb-4 text-5xl">
           Hi, I am <b className="uppercase">David Lee</b>
         </h1>
@@ -23,13 +34,25 @@ const App = () => (
         </p>
         <CornerBottom />
       </Box>
-      <Box className="h-4 border-t-0 !p-0" />
+      <Box className="h-4 border-t-0 p-0!" />
       <Box className="relative border-y-0">
-        <CornerTop className="!-left-px !-top-px" />
+        <CornerTop className="-top-px! -left-px!" />
         <h2 className="text-sm uppercase opacity-70">Projects</h2>
       </Box>
       <div className="relative">
-        <ul className="grid grid-cols-1 gap-px border border-light bg-light sm:grid-cols-2 dark:border-dark dark:bg-dark">
+        <ul
+          className={clsx(
+            'border-light',
+            'bg-light',
+            'dark:border-dark',
+            'dark:bg-dark',
+            'grid',
+            'grid-cols-1',
+            'gap-px',
+            'border',
+            'sm:grid-cols-2'
+          )}
+        >
           {projects.map((project) => (
             <li key={project.title} className="bg-lightest dark:bg-darkest">
               <BoxClickable
@@ -42,7 +65,7 @@ const App = () => (
             </li>
           ))}
         </ul>
-        <CornerBottom className="!bottom-px !right-px" />
+        <CornerBottom className="right-px! bottom-px!" />
       </div>
       {/* <Box className="h-3 border-t-0 p-0" />
       <Box className="border-y-0">
@@ -84,28 +107,52 @@ const App = () => (
           </li>
         </ul>
       </Box> */}
-      <Box className="h-4 border-t-0 !p-0" />
+      <Box className="h-4 border-t-0 p-0!" />
       <div className="relative flex flex-nowrap">
         <CornerTop className="-top-px" />
         <BoxClickable
           href="https://github.com/david-j-lee"
-          className="flex w-1/3 items-center justify-center border-y-0 p-8 text-3xl"
+          className={clsx(
+            'flex',
+            'w-1/3',
+            'items-center',
+            'justify-center',
+            'border-y-0',
+            'p-8',
+            'text-3xl'
+          )}
         >
           <FaGithub />
         </BoxClickable>
         <BoxClickable
           href="https://www.linkedin.com/in/david-j-lee/"
-          className="flex w-1/3 items-center justify-center border-y-0 p-8 text-3xl"
+          className={clsx(
+            'flex',
+            'w-1/3',
+            'items-center',
+            'justify-center',
+            'border-y-0',
+            'p-8',
+            'text-3xl'
+          )}
         >
           <FaLinkedin />
         </BoxClickable>
         <BoxClickable
           href="https://stackoverflow.com/users/6535663/david-lee?tab=profile"
-          className="flex w-1/3 items-center justify-center border-y-0 p-8 text-3xl"
+          className={clsx(
+            'flex',
+            'w-1/3',
+            'items-center',
+            'justify-center',
+            'border-y-0',
+            'p-8',
+            'text-3xl'
+          )}
         >
           <FaStackOverflow />
         </BoxClickable>
-        <CornerBottom className="!right-px" />
+        <CornerBottom className="right-px!" />
       </div>
     </div>
     <BoxesRow bottom />

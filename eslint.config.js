@@ -14,7 +14,8 @@ export default tseslint.config(
       js.configs.recommended,
       ...tseslint.configs.recommendedTypeChecked,
       ...tseslint.configs.stylisticTypeChecked,
-      ...tailwind.configs['flat/recommended'],
+      // TODO: Add back when eslint-plugin-tailwindcss v4 is released
+      // ...tailwind.configs['flat/recommended'],
       eslintConfigPrettier,
     ],
     files: ['**/*.{ts,tsx}'],

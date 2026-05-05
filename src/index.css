@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-lightest: #f5f5f4;
+  --color-light: #e5e5e5;
+  --color-dim: #a3a3a3;
+  --color-dimmer: #737373;
+  --color-dark: #262626;
+  --color-darkest: #171717;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 html,
 body {
@@ -18,4 +27,8 @@ html {
 
 html.dark {
   background-color: #171717;
+}
+
+#root {
+  height: 100%;
 }

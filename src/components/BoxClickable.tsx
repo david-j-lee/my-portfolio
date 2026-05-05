@@ -1,3 +1,5 @@
+import clsx from 'clsx';
+
 interface Props {
   href: string;
   className?: string;
@@ -9,10 +11,18 @@ export const BoxClickable = ({ children, className, href }: Props) => (
     href={href}
     target="_blank"
     rel="noreferrer"
-    className={
-      'block border border-light p-5 transition-colors duration-500 hover:bg-dark hover:text-lightest dark:border-dark dark:hover:bg-lightest dark:hover:text-darkest ' +
+    className={clsx(
+      'block',
+      'border',
+      'border-light',
+      'p-5',
+      'transition-colors',
+      'duration-500',
+      'hover:bg-light',
+      'dark:border-dark',
+      'dark:hover:bg-dark',
       className
-    }
+    )}
   >
     {children}
   </a>

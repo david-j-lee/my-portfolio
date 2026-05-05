@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { useCallback, useEffect, useState } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 
@@ -24,10 +25,17 @@ const ThemePicker = ({ className }: Props) => {
   return (
     <button
       onClick={handleThemeSwitcher}
-      className={
-        'text-dim hover:text-dimmer hover:dark:text-dim dark:text-dimmer absolute right-6 top-6 text-3xl ' +
+      className={clsx(
+        'text-dim',
+        'hover:text-dimmer',
+        'hover:dark:text-dim',
+        'dark:text-dimmer',
+        'absolute',
+        'right-6',
+        'top-6',
+        'text-3xl',
         className
-      }
+      )}
     >
       {theme === 'dark' && <FaSun />}
       {theme === 'light' && <FaMoon />}
